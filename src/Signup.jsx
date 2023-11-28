@@ -1,7 +1,7 @@
 import React from 'react'
 import './Loginsignup.css'
 import { Link } from 'react-router-dom'
-//import Login from './Login'
+import Login from './Login'
 
 export default function Signup() {
   return (
