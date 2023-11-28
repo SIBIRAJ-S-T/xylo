@@ -1,7 +1,7 @@
 import React from 'react'
 import './Loginsignup.css'
 import { Link } from 'react-router-dom'
-import Login from './Login'
+//import Login from './Login'
 
 export default function Signup() {
   return (
@@ -14,7 +14,7 @@ export default function Signup() {
     <input type="text" placeholder="Email"/>
     <button>Create Account</button>
     <p class="message">Already registered? 
-    <Link to="/">Sign In</Link></p>
+    <Link to="/Login">Sign In</Link></p>
     </form>
     </div>
     </div>

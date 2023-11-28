@@ -2,6 +2,7 @@ import React from 'react'
 import './Loginsignup.css'
 import { Link } from 'react-router-dom'
 export default function Login() {
+
   return (
     <div>
     <div class="login-page">
@@ -9,8 +10,8 @@ export default function Login() {
     <form class="login-form">
       <input type="text" placeholder="Username or Email"/>
       <input type="password" placeholder="Password"/>
-      <button>login</button>
-      <p class="message">Not registered? 
+      <button><Link to="/">login</Link></button>
+      <p class="message">Not registered?
       <Link to="/Signup">Create an account</Link>
       </p>
     </form>
