@@ -12,7 +12,7 @@ export default function Signup() {
     <input type="text" placeholder="Name"/>
     <input type="password" placeholder="Password"/>
     <input type="text" placeholder="Email"/>
-    <button>create</button>
+    <button>Create Account</button>
     <p class="message">Already registered? 
     <Link to="/">Sign In</Link></p>
     </form>
