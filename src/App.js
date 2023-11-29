@@ -7,13 +7,14 @@ import Home from './Home';
 function App() {
   return (
     <div>
-      <BrowserRouter>
-          <Routes>
+      {/*<BrowserRouter>
+  <Routes>
               <Route path="/" element={<Home/>}></Route>
               <Route path="/Login" element={<Login/>}></Route>
               <Route path="/Signup" element={<Signup/>}></Route>
           </Routes>
-      </BrowserRouter>
+      </BrowserRouter>*/}
+      <Home/>
   </div>
   );
 }
