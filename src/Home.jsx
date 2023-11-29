@@ -12,7 +12,7 @@ export default function Home() {
         <nav>
             <div className='anc'>
             <a href="#">Home</a>
-            <a href="#product">Product</a>
+            <a href="#product"></a>
             <a href="#">Shop</a>
             <a href="#">About</a>
             <a href="#contact">Contact</a>
@@ -34,75 +34,52 @@ export default function Home() {
         </section>
 
         <section id="product">
+        
             <div class="product">
                 <div class="product-info">
-                    <h3>Product 1</h3>
-                    <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>$19.99</p>
-                   
+                    
                 </div>
             </div>
 
             <div class="product2">
                 <div class="product-info">
-                    <h3>Product 2</h3>
-                    <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>$19.99</p>
-                   
+                    
                 </div>
             </div>
     
             <div class="product3">
                 <div class="product-info">
-                    <h3>Product 3</h3>
-                    <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>$29.99</p>
                     
                 </div>
             </div>
     
             <div class="product4">
                 <div class="product-info">
-                    <h3>Product 4</h3>
-                    <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>$29.99</p>
                     
                 </div>
             </div>
     
             <div class="product5">
                 <div class="product-info">
-                    <h3>Product 5</h3>
-                    <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>$29.99</p>
                     
                 </div>
             </div>
     
             <div class="product6">
                 <div class="product-info">
-                    <h3>Product 6</h3>
-                    <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>$29.99</p>
                     
                 </div>
             </div>
 
             <div class="product7">
                 <div class="product-info">
-                    <h3>Product 7</h3>
-                    <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>$29.99</p>
                     
                 </div>
             </div>
 
             <div class="product8">
                 <div class="product-info">
-                    <h3>Product 8</h3>
-                    <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p>$29.99</p>
-                   
+                    
                 </div>
             </div>
 
