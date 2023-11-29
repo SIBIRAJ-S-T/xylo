@@ -12,7 +12,7 @@ export default function Home() {
         <nav>
             <div className='anc'>
             <a href="#">Home</a>
-            <a href="#">Product</a>
+            <a href="#product">Product</a>
             <a href="#">Shop</a>
             <a href="#">About</a>
             <a href="#contact">Contact</a>
@@ -33,9 +33,8 @@ export default function Home() {
             </marquee>
         </section>
 
-        <section>
+        <section id="product">
             <div class="product">
-                <img src="logo192.png" alt="Product 1"/>
                 <div class="product-info">
                     <h3>Product Name 1</h3>
                     <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -45,7 +44,6 @@ export default function Home() {
             </div>
 
             <div class="product">
-                <img src="logo512.png" alt="Product 1"/>
                 <div class="product-info">
                     <h3>Product Name 1</h3>
                     <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -55,7 +53,6 @@ export default function Home() {
             </div>
     
             <div class="product">
-                <img src="logo512.png" alt="Product 2"/>
                 <div class="product-info">
                     <h3>Product Name 2</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -65,7 +62,6 @@ export default function Home() {
             </div>
     
             <div class="product">
-                <img src="logo512.png" alt="Product 2"/>
                 <div class="product-info">
                     <h3>Product Name 2</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -75,7 +71,6 @@ export default function Home() {
             </div>
     
             <div class="product">
-                <img src="logo512.png" alt="Product 2"/>
                 <div class="product-info">
                     <h3>Product Name 2</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -85,7 +80,6 @@ export default function Home() {
             </div>
     
             <div class="product">
-                <img src="logo512.png" alt="Product 2"/>
                 <div class="product-info">
                     <h3>Product Name 2</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -93,9 +87,8 @@ export default function Home() {
                     <button>Add to Cart</button>
                 </div>
             </div>
-    
+
             <div class="product">
-                <img src="logo512.png" alt="Product 2"/>
                 <div class="product-info">
                     <h3>Product Name 2</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -103,9 +96,8 @@ export default function Home() {
                     <button>Add to Cart</button>
                 </div>
             </div>
-    
+
             <div class="product">
-                <img src="logo512.png" alt="Product 2"/>
                 <div class="product-info">
                     <h3>Product Name 2</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -113,9 +105,7 @@ export default function Home() {
                     <button>Add to Cart</button>
                 </div>
             </div>
-    
-           
-    
+
         </section>
 
         <footer id='contact'>
