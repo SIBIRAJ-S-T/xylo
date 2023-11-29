@@ -25,11 +25,11 @@ export default function Home() {
         </nav>
 
         <section className='scrl'>
-            <marquee scrollamount='20' direction='right' behavior='scroll'>
-                <img src="https://picsum.photos/id/1067/540/720" alt="Slide 1" />
-                <img src="https://picsum.photos/id/249/540/720" alt="Slide 4" />
-                <img src="https://picsum.photos/id/122/540/720" alt="Slide 2" />
-                <img src="https://picsum.photos/id/188/540/720" alt="Slide 3" />
+            <marquee scrollamount='15' direction='right' behavior='scroll'>
+                <img src="https://m.media-amazon.com/images/G/31/img21/MA2023/PD23/sbcheader/Hero" alt="Slide 1" />
+                <img src="https://m.media-amazon.com/images/G/31/img21/MA2023/BOTW23/Nov/29/BOTW_29_3000x800" alt="Slide 4" />
+                <img src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg" alt="Slide 2" />
+                <img src="https://m.media-amazon.com/images/G/31/img21/Apple_Ultra2/series9_1400x800._CB578797397_.jpg" alt="Slide 3" />
             </marquee>
         </section>
 
