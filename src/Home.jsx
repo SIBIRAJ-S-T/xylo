@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
         <header>
-            <h1>My E-commerce Store</h1>
+            <h1> E-commerce Store</h1>
         </header>
     
         <nav>
@@ -19,7 +19,7 @@ export default function Home() {
             </div>
             <div className='log'>
             <Link to="/Login"><button>Login</button></Link>
-            <button>sign Up</button>
+            <button>Sign Up</button>
             <button>Add to Cart</button>
             </div>
         </nav>
@@ -36,73 +36,73 @@ export default function Home() {
         <section id="product">
             <div class="product">
                 <div class="product-info">
-                    <h3>Product Name 1</h3>
+                    <h3>Product 1</h3>
                     <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>$19.99</p>
-                    <button>Add to Cart</button>
+                   
                 </div>
             </div>
 
-            <div class="product">
+            <div class="product2">
                 <div class="product-info">
-                    <h3>Product Name 1</h3>
+                    <h3>Product 2</h3>
                     <p>Description of Product 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>$19.99</p>
-                    <button>Add to Cart</button>
+                   
                 </div>
             </div>
     
-            <div class="product">
+            <div class="product3">
                 <div class="product-info">
-                    <h3>Product Name 2</h3>
+                    <h3>Product 3</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>$29.99</p>
-                    <button>Add to Cart</button>
+                    
                 </div>
             </div>
     
-            <div class="product">
+            <div class="product4">
                 <div class="product-info">
-                    <h3>Product Name 2</h3>
+                    <h3>Product 4</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>$29.99</p>
-                    <button>Add to Cart</button>
+                    
                 </div>
             </div>
     
-            <div class="product">
+            <div class="product5">
                 <div class="product-info">
-                    <h3>Product Name 2</h3>
+                    <h3>Product 5</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>$29.99</p>
-                    <button>Add to Cart</button>
+                    
                 </div>
             </div>
     
-            <div class="product">
+            <div class="product6">
                 <div class="product-info">
-                    <h3>Product Name 2</h3>
+                    <h3>Product 6</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>$29.99</p>
-                    <button>Add to Cart</button>
+                    
                 </div>
             </div>
 
-            <div class="product">
+            <div class="product7">
                 <div class="product-info">
-                    <h3>Product Name 2</h3>
+                    <h3>Product 7</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>$29.99</p>
-                    <button>Add to Cart</button>
+                    
                 </div>
             </div>
 
-            <div class="product">
+            <div class="product8">
                 <div class="product-info">
-                    <h3>Product Name 2</h3>
+                    <h3>Product 8</h3>
                     <p>Description of Product 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <p>$29.99</p>
-                    <button>Add to Cart</button>
+                   
                 </div>
             </div>
 
@@ -111,14 +111,14 @@ export default function Home() {
         <footer id='contact'>
     <div>
         <h2>Contact Us</h2>
-        <p>Email: info@yourstore.com</p>
-        <p>Phone: +1 (123) 456-7890</p>
+        <p>Email: xylo@yourstore.com</p>
+        <p>Phone: 0424-8345-1233</p>
     </div>
     
     <div>
         <h2>Follow Us</h2>
         <a href="#">Facebook</a> |
-        <a href="#">Twitter</a> |
+        <a href="#"> Twitter</a> |
         <a href="#">Instagram</a>
     </div>
 
