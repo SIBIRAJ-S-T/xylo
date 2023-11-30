@@ -2,25 +2,38 @@ import React from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom'
 import Headerimage from './Headerimage'
+import Logout from './Logout'
+import { useNavigate } from 'react-router-dom'
+import Inhome from './Inhome'
 export default function Home() {
+
+    const navigate = useNavigate();
+
+    const Inhome1 = () => {
+        navigate('/Inhome');
+    }
+
   return (
-    <div>
+    <div id='home'>
         <header>
-            <h1> E-commerce Store</h1>
+            <h1>
+                Xylo
+            </h1>
+            <h2>India's No-1 Company</h2>
         </header>
     
         <nav>
             <div className='anc'>
-            <a href="#">Home</a>
-            <a href="#product"></a>
-            <a href="#">Shop</a>
+            <a href="#home">Home</a>
+            <a href="#product">Products</a>
+            <a href="#product">Shop</a>
             <a href="#">About</a>
             <a href="#contact">Contact</a>
             </div>
             <div className='log'>
             <Link to="/Login"><button>Login</button></Link>
-            <button>Sign Up</button>
-            <button>Add to Cart</button>
+            <Link to="/Signup"><button>Sign Up</button></Link>
+            <Logout/>
             </div>
         </nav>
 
@@ -34,50 +47,50 @@ export default function Home() {
         </section>
 
         <section id="product">
-        
-            <div class="product">
+            
+            <div class="product" onClick={Inhome1}>
+                <div class="product-info">
+                
+                </div>
+            </div>
+
+            <div class="product2" onClick={Inhome1}>
+                <div class="product-info">
+                    
+                </div>
+            </div>
+    
+            <div class="product3" onClick={Inhome1}>
+                <div class="product-info">
+                    
+                </div>
+            </div>
+    
+            <div class="product4" onClick={Inhome1}>
+                <div class="product-info">
+                    
+                </div>
+            </div>
+    
+            <div class="product5" onClick={Inhome1}>
+                <div class="product-info">
+                    
+                </div>
+            </div>
+    
+            <div class="product6" onClick={Inhome1}>
                 <div class="product-info">
                     
                 </div>
             </div>
 
-            <div class="product2">
-                <div class="product-info">
-                    
-                </div>
-            </div>
-    
-            <div class="product3">
-                <div class="product-info">
-                    
-                </div>
-            </div>
-    
-            <div class="product4">
-                <div class="product-info">
-                    
-                </div>
-            </div>
-    
-            <div class="product5">
-                <div class="product-info">
-                    
-                </div>
-            </div>
-    
-            <div class="product6">
+            <div class="product7" onClick={Inhome1}>
                 <div class="product-info">
                     
                 </div>
             </div>
 
-            <div class="product7">
-                <div class="product-info">
-                    
-                </div>
-            </div>
-
-            <div class="product8">
+            <div class="product8" onClick={Inhome1}>
                 <div class="product-info">
                     
                 </div>

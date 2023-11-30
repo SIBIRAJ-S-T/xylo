@@ -1,75 +1,3 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #f4f4f4;
-    max-width: 100vw;
-    max-height: 100vh;
-    overflow-x: hidden;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 55px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-header h1{
-    margin-left: 200px;
-}
-
-header h2{
-    margin-right: 200px;
-}
-
-nav {
-    background-color: #444;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav a{
-    text-align: left;
-}
-
-a{
-    color: white;
-    margin-right: 35px;
-    margin-left: 30px;
-    text-decoration: none;
-}
-
-nav button{
-    margin-right: -10px;
-}
-
-.log{
-    display: flex;
-    height: 30px;
-}
-
-
-.scrl{
-    width: 100%;
-    height: 400px;
-}
-
-.scrl marquee img{
-    height: 400px;
-    width: 100%;
-    margin-right: 10px;
-}
-
 section {
     padding: 20px;
     display: flex;
@@ -241,26 +169,6 @@ section {
     border: none;
     width: 100%;
     cursor: pointer;
-}
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: auto;
-    /* position: fixed;*/
-    bottom: 0;
-    width: 100%;
-}
-.anc{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:larger;
-}
-h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: xx-large;
 }
 
 .product, .product2, .product3, .product4, .product5, .product6, .product7, .product8{
