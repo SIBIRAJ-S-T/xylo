@@ -1,0 +1,176 @@
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    height: 300px;
+    /* width: 375px; */
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/AF/PD/Deals/mens_clothing.png");
+    background-size: cover;
+}
+
+.product2{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    height: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/AF/PD/Deals/3.png");
+    background-size: cover;
+}
+
+.product3{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    height: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/AF/PD/Deals/womens_clothing.png");
+    background-size: cover;
+}
+
+.product4{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    height: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/AF/PD/Deals/6.png");
+    background-size: cover;
+}
+
+.product5{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    height: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/AF/PD/Deals/10.png");
+    background-size: cover;
+}
+
+.product6{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    height: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/AF/PD/Deals/5.png");
+    background-size: cover;
+}
+
+.product7{
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    height: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/AF/PD/Deals/9.png");
+    background-size: cover;
+}
+
+.product8{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    height: 300px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Fashion/Event/AF/PD/Deals/7.png");
+    background-size: cover;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+.product2:hover {
+    transform: scale(1.05);
+}
+.product3:hover {
+    transform: scale(1.05);
+}
+.product4:hover {
+    transform: scale(1.05);
+}
+.product5:hover {
+    transform: scale(1.05);
+}
+.product6:hover {
+    transform: scale(1.05);
+}
+.product7:hover {
+    transform: scale(1.05);
+}
+.product8:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product h3 {
+    margin-top: 0;
+}
+
+.product p {
+    color: #777;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.product, .product2, .product3, .product4, .product5, .product6, .product7, .product8{
+    width: 375px;
+}

@@ -1,7 +1,7 @@
 import React from 'react'
-import './Inhome.css'
-import Home from './Home';
-export default function Inhome() {
+import './Inhome1.css'
+// import Home from './Home';
+export default function Inhome1() {
 
     const items = [
         { id: 1, name: 'Item 1', price: 10, img:'image-link'},

@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom'
 import Headerimage from './Headerimage'
 import Logout from './Logout'
 import { useNavigate } from 'react-router-dom'
-import Inhome from './Inhome'
+import Inhome1 from './Inhome/Inhome1'
 export default function Home() {
 
     const navigate = useNavigate();
 
     const Inhome1 = () => {
-        navigate('/Inhome');
+        navigate('Inhome/Inhome1');
     }
 
   return (
