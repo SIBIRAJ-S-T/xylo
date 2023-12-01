@@ -18,7 +18,7 @@ export default function Login() {
     <form class="login-form">
       <input type="text" placeholder="Username or Email"/>
       <input type="password" placeholder="Password"/>
-      <button onClick={home}>login</button>
+      <button onClick={home}>Login</button>
       <p class="message">Not registered?
       <Link to="/Signup">Create an account</Link>
       </p>
