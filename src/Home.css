@@ -16,19 +16,18 @@ html{
 header {
     background-color: #333;
     color: #fff;
-    padding: 55px;
+    padding: 25px;
     text-align: center;
-    display: flex;
-    justify-content: space-between;
+    /* max-height: 100px; */
+    /* display: flex; */
 }
 
 header h1{
-    margin-left: 200px;
+    text-align: center;
+    font-size: 50px;
 }
 
-header h2{
-    margin-right: 200px;
-}
+
 
 nav {
     background-color: #444;

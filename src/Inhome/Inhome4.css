@@ -5,6 +5,13 @@ section {
     justify-content: space-around;
 }
 
+.product-info1{
+    background-color: yellow;
+    text-align: center;
+    margin-top: 200px;
+    color: green;
+}
+
 .product {
     border: 1px solid #ddd;
     border-radius: 5px;
