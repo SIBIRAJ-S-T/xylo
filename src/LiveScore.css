@@ -1,0 +1,18 @@
+.live-cricket-score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .team {
+    text-align: center;
+  }
+  
+  .team-name {
+    font-weight: bold;
+  }
+  
+  .team-score {
+    margin-top: 5px;
+  }
+  

@@ -7,7 +7,7 @@ export default function Logout() {
     <div>
         <div class="dropdown">
             <button class="dropbtn">Settings</button>
-            <div class="dropdown-content">
+            <div className="dropdown-content">
             <Link to="/Login">Log Out</Link>
             </div>
         </div>

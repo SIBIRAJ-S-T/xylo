@@ -13,17 +13,18 @@ export default function Login() {
   const Handle_Login = async (event) => {
 
     event.preventDefault();
-    const res = await axios.get(`http://localhost:8080/get/${username}/${password}`);
+    const res = await axios.delete(`http://localhost:8080/deletename/${username}/${password}`);
     console.log(res.data)
-      if(res.data==="ok"){
-        navigate('/');
+      if(res.data){
+        navigate('/Login');
       }
-      else if(res.data==="pass"){
-        alert("password is wrong");
+      else if(!res.username){
+        alert("Invalid User");
       }
-      else{
-        alert("user not registered please register");
+      else if(!res.password){
+        alert("Wrong Password");
       }
+      
     
 
   }
@@ -35,10 +36,7 @@ export default function Login() {
     <form className="login-form" onSubmit={Handle_Login}>
     <input type="text" placeholder="Name" value={username} onChange={(e) => setUsername(e.target.value)} required/>
     <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required/>
-      <button  type="submit">Login</button>
-      <p className="message">Not registered?
-      <Link to="/Signup">Create an account</Link>
-      </p>
+      <button  type="submit">Delete Your Account</button>
     </form>
     </div>
     </div>

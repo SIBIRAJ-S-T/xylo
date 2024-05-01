@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import { Link } from 'react-router-dom'
 import Headerimage from './Headerimage'
+import Delete from './Delete'
 import Logout from './Logout'
 import { useNavigate } from 'react-router-dom'
 import Inhome1 from './Inhome/Inhome1'
@@ -50,9 +51,11 @@ export default function Home() {
             <a href="#">About</a>
             <a href="#contact">Contact</a>
             </div>
+            
             <div className='log'>
             <Link to="/Login"><button>Login</button></Link>
             <Link to="/Signup"><button>Sign Up</button></Link>
+            <Delete/>
             <Logout/>
             </div>
         </nav>

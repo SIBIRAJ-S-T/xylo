@@ -8,7 +8,7 @@ export default function Inhome1() {
   const navigate = useNavigate();
 
     const pay2 = () => {
-        navigate('I/Payment');
+        navigate('/Payment');
     }
   const items = [
     { id: 1, name: 'Item 1', price: 10, img: 'https://m.media-amazon.com/images/I/61fCL6V3u2L.AC_UL480_FMwebp_QL65.jpg' },

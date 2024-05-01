@@ -12,6 +12,7 @@ import Inhome6 from './Inhome/Inhome6';
 import Inhome7 from './Inhome/Inhome7';
 import Inhome8 from './Inhome/Inhome8';
 import Payment from './Payment';
+import DeleteAcc from './DeleteAcc';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
               <Route path="/Inhome/Inhome7" element={<Inhome7/>}></Route>
               <Route path="/Inhome/Inhome8" element={<Inhome8/>}></Route>
               <Route path="/Payment" element={<Payment/>}></Route>
+              <Route path="/DeleteAcc" element={<DeleteAcc/>}></Route>
           </Routes>
       </BrowserRouter>
   </div>
